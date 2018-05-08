@@ -8,7 +8,10 @@ function doIt() {
 	rsync --exclude ".git/" \
 		--exclude ".DS_Store" \
 		--exclude "bootstrap.sh" \
+		--exclude ".macos" \
 		--exclude "README.md" \
+		--exclude "brew.sh" \
+		--exclude "Solarized Dark xterm-256color.terminal" \
 		-avh --no-perms . ~;
 	source ~/.bash_profile;
 }
