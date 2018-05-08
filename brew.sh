@@ -95,6 +95,7 @@ brew install ssh-copy-id
 brew install tree
 brew install vbindiff
 brew install zopfli
+brew install tree
 
 # Install keyboard related tools
 brew install cask
