@@ -96,6 +96,7 @@ brew install tree
 brew install vbindiff
 brew install zopfli
 brew install tree
+brew install trash
 
 # Install keyboard related tools
 brew install cask
