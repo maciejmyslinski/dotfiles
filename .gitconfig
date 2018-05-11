@@ -1,4 +1,4 @@
 [core]
-	editor = code
+	editor = code --wait
 [user]
 	email = maciej.myslinski@netguru.co
