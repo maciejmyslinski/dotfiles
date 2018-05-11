@@ -95,12 +95,13 @@ brew install ssh-copy-id
 brew install tree
 brew install vbindiff
 brew install zopfli
+brew install tree
+brew install trash
 
-# Install keyboard related tools
 brew install cask
 brew cask install karabiner-elements
-
-# Install casks
+brew tap caskroom/fonts
+brew cask install font-fira-code
 brew cask install google-chrome
 brew cask install google-drive-file-stream
 brew cask install firefox
@@ -118,6 +119,7 @@ brew cask install whatsapp
 brew cask install alfred
 brew cask install 1clipboard
 brew cask install visual-studio-code
+
 
 # Install dev-related binaries
 brew install nvm && mkdir ~/.nvm
