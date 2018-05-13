@@ -11,7 +11,6 @@ function doIt() {
 		--exclude ".macos" \
 		--exclude "README.md" \
 		--exclude "brew.sh" \
-		--exclude "Solarized Dark xterm-256color.terminal" \
 		-avh --no-perms . ~;
 }
 
