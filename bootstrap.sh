@@ -13,7 +13,6 @@ function doIt() {
 		--exclude "brew.sh" \
 		--exclude "Solarized Dark xterm-256color.terminal" \
 		-avh --no-perms . ~;
-	source ~/.bash_profile;
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
