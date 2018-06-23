@@ -119,6 +119,7 @@ brew cask install whatsapp
 brew cask install alfred
 brew cask install 1clipboard
 brew cask install visual-studio-code
+brew cask install postman
 
 
 # Install dev-related binaries
