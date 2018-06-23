@@ -32,3 +32,7 @@
 * Login to 1Clipboard
 * Login to Monosnap
 * Start LittleIpsum at login
+* Login to Postman
+* Change Desktop background
+* Add google account and sync contacts
+* iCould account: sync only drive, photos, keychain and find my mac
