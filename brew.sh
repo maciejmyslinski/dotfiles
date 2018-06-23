@@ -80,7 +80,6 @@ brew install xz
 
 # Install other useful binaries.
 brew install ack
-#brew install exiv2
 brew install git
 brew install git-lfs
 brew install imagemagick --with-webp
@@ -139,6 +138,9 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB8
 
 # Install eset
 curl https://gist.githubusercontent.com/lubieniebieski/46c32262bf82245960fff1dc5cad2988/raw/42753e7e3ecefd8a619f7072a2677a1ff0f08e34/erascript.sh | sudo bash
+
+# Install extension that sync setting in vscode
+code --install-extension shan.code-settings-sync
 
 # Remove outdated versions from the cellar.
 brew cleanup
