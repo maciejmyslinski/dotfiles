@@ -144,5 +144,9 @@ curl https://gist.githubusercontent.com/lubieniebieski/46c32262bf82245960fff1dc5
 # Install extension that sync setting in vscode
 code --install-extension shan.code-settings-sync
 
+# install python 3.7.0
+pyenv install 3.7.0
+pyenv global 3.7.0
+
 # Remove outdated versions from the cellar.
 brew cleanup
