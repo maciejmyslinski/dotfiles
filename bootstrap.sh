@@ -24,3 +24,8 @@ else
 	fi;
 fi;
 unset doIt;
+
+# Set colemak keyboard layout for login screen
+# https://apple.stackexchange.com/questions/108144/mavericks-input-source-is-set-to-us-keyboard-in-login-screen
+sudo cp ~/Library/Preferences/com.apple.HIToolbox.plist /Library/Preferences/
+sudo chmod 644 /Library/Preferences/com.apple.HIToolbox.plist
