@@ -145,8 +145,11 @@ curl https://gist.githubusercontent.com/lubieniebieski/46c32262bf82245960fff1dc5
 code --install-extension shan.code-settings-sync
 
 # install python 3.7.0
-pyenv install 3.7.0
-pyenv global 3.7.0
+pyenv install 2.7.15
+pyenv global 2.7.15
+
+# install aws cli
+pip install awscli --upgrade --user
 
 # Remove outdated versions from the cellar.
 brew cleanup
