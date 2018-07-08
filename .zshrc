@@ -108,11 +108,5 @@ export NVM_DIR="$HOME/.nvm"
 # enable thefuck
 eval $(thefuck --alias)
 
-# add pyenv alias
-eval "$(pyenv init -)"
-
-# add aws cli to path
-export PATH=~/.pyenv/shims:$PATH
-
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"

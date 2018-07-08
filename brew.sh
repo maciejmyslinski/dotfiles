@@ -97,7 +97,6 @@ brew install zopfli
 brew install tree
 brew install trash
 brew install gpg
-brew install pyenv
 
 brew install cask
 brew cask install karabiner-elements
@@ -143,10 +142,6 @@ curl https://gist.githubusercontent.com/lubieniebieski/46c32262bf82245960fff1dc5
 
 # Install extension that sync setting in vscode
 code --install-extension shan.code-settings-sync
-
-# install python 3.7.0
-pyenv install 2.7.15
-pyenv global 2.7.15
 
 # install aws cli
 pip install awscli --upgrade --user
