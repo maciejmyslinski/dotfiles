@@ -108,5 +108,8 @@ export NVM_DIR="$HOME/.nvm"
 # enable thefuck
 eval $(thefuck --alias)
 
+# enable pip executables
+export PATH="$PATH:$HOME/Library/Python/2.7/bin"
+
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
