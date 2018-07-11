@@ -122,6 +122,7 @@ brew cask install visual-studio-code
 brew cask install postman
 brew cask install discord
 brew cask install appcleaner
+brew cask install postgres
 
 
 # Install dev-related binaries
