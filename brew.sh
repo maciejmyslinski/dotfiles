@@ -97,7 +97,6 @@ brew install zopfli
 brew install tree
 brew install trash
 brew install gpg
-brew install postgresql
 
 brew install cask
 brew cask install karabiner-elements
@@ -122,6 +121,7 @@ brew cask install 1clipboard
 brew cask install visual-studio-code
 brew cask install postman
 brew cask install discord
+brew cask install appcleaner
 
 
 # Install dev-related binaries
