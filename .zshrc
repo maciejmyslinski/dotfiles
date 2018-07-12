@@ -102,6 +102,9 @@ export PATH="$PATH:$HOME/.config/yarn/global/node_modules/.bin"
 export NVM_DIR="$HOME/.nvm"
   . "/usr/local/opt/nvm/nvm.sh"
 
+# enable locally installed executables
+export PATH=~/.local/bin:$PATH
+
 # include z script
 . /usr/local/etc/profile.d/z.sh
 
