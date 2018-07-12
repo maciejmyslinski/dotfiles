@@ -97,6 +97,7 @@ brew install zopfli
 brew install tree
 brew install trash
 brew install gpg
+brew install terraform
 
 brew install cask
 brew cask install karabiner-elements
