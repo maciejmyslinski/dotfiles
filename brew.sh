@@ -121,6 +121,9 @@ brew cask install alfred
 brew cask install 1clipboard
 brew cask install visual-studio-code
 brew cask install postman
+brew cask install discord
+brew cask install appcleaner
+brew cask install postgres
 
 
 # Install dev-related binaries
