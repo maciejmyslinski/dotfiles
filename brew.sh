@@ -124,6 +124,7 @@ brew cask install discord
 brew cask install appcleaner
 brew cask install postgres
 brew cask install vlc
+berw cask install docker
 
 
 # Install dev-related binaries
