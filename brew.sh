@@ -99,6 +99,7 @@ brew install trash
 brew install gpg
 brew install terraform
 brew install mysql@5.7
+brew install docker-compose
 
 brew install cask
 brew cask install karabiner-elements
@@ -125,6 +126,8 @@ brew cask install postman
 brew cask install discord
 brew cask install appcleaner
 brew cask install postgres
+brew cask install vlc
+berw cask install docker
 
 
 # Install dev-related binaries
