@@ -98,6 +98,7 @@ brew install tree
 brew install trash
 brew install gpg
 brew install terraform
+brew install mysql@5.7
 
 brew install cask
 brew cask install karabiner-elements
