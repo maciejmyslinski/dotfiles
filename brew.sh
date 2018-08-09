@@ -100,6 +100,7 @@ brew install gpg
 brew install terraform
 brew install mysql@5.7
 brew install docker-compose
+brew install ffmpeg
 
 brew install cask
 brew cask install karabiner-elements
