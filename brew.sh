@@ -127,7 +127,8 @@ brew cask install discord
 brew cask install appcleaner
 brew cask install postgres
 brew cask install vlc
-berw cask install docker
+brew cask install docker
+brew cask install obs
 
 
 # Install dev-related binaries
