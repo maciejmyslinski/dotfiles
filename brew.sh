@@ -130,6 +130,7 @@ brew cask install postgres
 brew cask install vlc
 brew cask install docker
 brew cask install obs
+brew cask install notion
 
 
 # Install dev-related binaries
