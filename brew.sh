@@ -131,6 +131,7 @@ brew cask install vlc
 brew cask install docker
 brew cask install obs
 brew cask install notion
+brew cask install spotify
 
 
 # Install dev-related binaries
