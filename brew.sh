@@ -161,3 +161,6 @@ pip install awscli --upgrade --user
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# Install yarn globals
+yarn global add git-recent git-open
