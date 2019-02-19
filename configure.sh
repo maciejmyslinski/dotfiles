@@ -3,3 +3,4 @@
 ./brew.sh
 ./bootstrap.sh
 ./macos
+./update-remote.sh

@@ -101,6 +101,7 @@ brew install terraform
 brew install mysql@5.7
 brew install docker-compose
 brew install ffmpeg
+brew install pyenv
 
 brew install cask
 brew cask install karabiner-elements
@@ -134,6 +135,7 @@ brew cask install notion
 brew cask install spotify
 brew cask install numi
 brew cask install rocket
+brew cask install twitch
 
 
 # Install dev-related binaries
