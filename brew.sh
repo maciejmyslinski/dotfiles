@@ -134,6 +134,7 @@ brew cask install obs
 brew cask install notion
 brew cask install spotify
 brew cask install numi
+brew cask install twitch
 
 
 # Install dev-related binaries
