@@ -862,6 +862,13 @@ defaults write com.operasoftware.OperaDeveloper PMPrintingExpandedStateForPrint2
 # # Bypass the annoyingly slow t.co URL shortener
 # defaults write com.tapbots.TweetbotMac OpenURLsDirectly -bool true
 
+# ###############################################################################
+# # Visual Studio Code                                                          #
+# ###############################################################################
+
+# https://github.com/VSCodeVim/Vim#-installation
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+
 ###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
