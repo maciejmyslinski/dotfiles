@@ -135,7 +135,7 @@ brew cask install notion
 brew cask install spotify
 brew cask install numi
 brew cask install rocket
-brew cask install twitch
+brew cask install selfcontrol
 
 
 # Install dev-related binaries
