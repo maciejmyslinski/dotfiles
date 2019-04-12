@@ -143,7 +143,7 @@ brew install nvm && mkdir ~/.nvm
 brew install watchman
 brew install thefuck
 brew install zsh zsh-completions
-brew install yarn --without-node
+brew install yarn 
 brew install z
 
 # Install oh-my-zsh
