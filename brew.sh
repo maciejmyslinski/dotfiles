@@ -137,6 +137,7 @@ brew cask install spotify
 brew cask install numi
 brew cask install rocket
 brew cask install devhub
+brew cask install pretzel
 
 
 # Install dev-related binaries
