@@ -106,6 +106,7 @@ brew install pyenv
 brew install cask
 brew cask install karabiner-elements
 brew tap caskroom/fonts
+brew tap devhubapp/devhub
 brew cask install font-fira-code
 brew cask install google-chrome
 brew cask install google-drive-file-stream
@@ -135,7 +136,7 @@ brew cask install notion
 brew cask install spotify
 brew cask install numi
 brew cask install rocket
-brew cask install twitch
+brew cask install devhub
 
 
 # Install dev-related binaries
