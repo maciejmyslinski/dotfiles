@@ -869,6 +869,10 @@ defaults write com.operasoftware.OperaDeveloper PMPrintingExpandedStateForPrint2
 # https://github.com/VSCodeVim/Vim#-installation
 defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 
+# Save screenshots off of Desktop
+# source https://lifehacker.com/how-to-keep-your-mac-screenshots-off-your-desktop-1823812318
+defaults write com.apple.screencapture location /Users/maciejmyslinski/Pictures/screenshots
+
 ###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
