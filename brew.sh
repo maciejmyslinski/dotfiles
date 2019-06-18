@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# source https://stackoverflow.com/a/51277659
+sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg -target /
+
 # Install Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
@@ -77,6 +80,10 @@ brew install tcptrace
 brew install ucspi-tcp # `tcpserver` etc.
 brew install xpdf
 brew install xz
+brew install zlib
+brew install pyenv
+brew install pyenv-virtualenv
+brew install pyenv-virtualenvwrapper
 
 # Install other useful binaries.
 brew install ack
