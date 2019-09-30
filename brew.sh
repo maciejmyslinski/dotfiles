@@ -177,3 +177,4 @@ brew cleanup
 
 # Install yarn globals
 yarn global add git-recent git-open
+yarn config set init-license UNLICENSED
