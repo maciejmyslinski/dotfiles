@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# source https://stackoverflow.com/a/51277659
+sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg -target /
+
 # Install Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
@@ -78,6 +81,9 @@ brew install ucspi-tcp # `tcpserver` etc.
 brew install xpdf
 brew install xz
 brew install hostess
+brew install zlib
+brew install pyenv-virtualenv
+brew install pyenv-virtualenvwrapper
 
 # Install other useful binaries.
 brew install ack
@@ -108,6 +114,7 @@ brew install pipenv
 brew install cask
 brew cask install karabiner-elements
 brew tap caskroom/fonts
+brew tap devhubapp/devhub
 brew cask install font-fira-code
 brew cask install google-chrome
 brew cask install google-drive-file-stream
@@ -138,6 +145,9 @@ brew cask install spotify
 brew cask install numi
 brew cask install rocket
 brew cask install cold-turkey-blocker
+brew cask install devhub
+brew cask install pretzel
+brew cask install selfcontrol
 
 
 # Install dev-related binaries
@@ -169,3 +179,4 @@ brew cleanup
 
 # Install yarn globals
 yarn global add git-recent git-open
+yarn config set init-license UNLICENSED
