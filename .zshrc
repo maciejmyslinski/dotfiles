@@ -125,3 +125,7 @@ export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 # https://github.com/robbyrussell/oh-my-zsh/issues/1905#issuecomment-20098196
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+
+# enable pyenv
+eval "$(pyenv init -)"
+eval "$(pipenv --completion)"

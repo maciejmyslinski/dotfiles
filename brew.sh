@@ -77,6 +77,7 @@ brew install tcptrace
 brew install ucspi-tcp # `tcpserver` etc.
 brew install xpdf
 brew install xz
+brew install hostess
 
 # Install other useful binaries.
 brew install ack
@@ -102,6 +103,7 @@ brew install mysql@5.7
 brew install docker-compose
 brew install ffmpeg
 brew install pyenv
+brew install pipenv
 
 brew install cask
 brew cask install karabiner-elements
@@ -135,7 +137,7 @@ brew cask install notion
 brew cask install spotify
 brew cask install numi
 brew cask install rocket
-brew cask install selfcontrol
+brew cask install cold-turkey-blocker
 
 
 # Install dev-related binaries
