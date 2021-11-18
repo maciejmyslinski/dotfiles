@@ -1,0 +1,5 @@
+[user]
+  name = "Mat Milbury"
+  email = "hello@maciejmyslinski.com"
+[core]
+  sshCommand = "ssh -i ~/.ssh/id_rsa"

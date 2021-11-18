@@ -1,25 +1,17 @@
 [core]
-	editor = code --wait
-	sshCommand = "ssh -i ~/.ssh/id_ed25519"
+  editor = code --wait
+  sshCommand = "ssh -i ~/.ssh/id_ed25519"
 [user]
-	name = Mat Milbury
-	email = mat@matmilbury.com
-[includeIf "gitdir:fifteen5"]
-    [user]
-			name = Mat Milbury
-			email = hello@maciejmyslinski.com
-		[core]
-			sshCommand = "ssh -i ~/.ssh/id_rsa"
-[includeIf "gitdir:maciejmyslinski"]
-    [user]
-			name = Maciej Myśliński
-			email = hello@maciejmyslinski.com
-		[core]
-			sshCommand = "ssh -i ~/.ssh/id_rsa"
+  name = "Mat Milbury"
+  email = "mat@matmilbury.com"
+[includeIf "gitdir:fifteen5/"]
+    path = .gitconfig-fifteen5
+[includeIf "gitdir:maciejmyslinski/"]
+    path = .gitconfig-maciejmyslinski
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true
 [init]
-	defaultBranch = main
+  defaultBranch = main
