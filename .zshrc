@@ -61,10 +61,25 @@ ZSH_THEME="robbyrussell"
 plugins=(
   git
   colored-man-pages
-  extract
+  # extract
 )
 
 source $ZSH/oh-my-zsh.sh
+
+# ---------------------------------------------------------------------------- #
+#                            15Five specific aliases                           #
+# ---------------------------------------------------------------------------- #
+# reftch and rebase on the origin/dev
+alias gfrbd='gf & grb origin/dev'
+
+alias prsize='gd --stat'
+
+# ---------------------------------------------------------------------------- #
+#                                General aliases                               #
+# ---------------------------------------------------------------------------- #
+alias ytw='yarn test --watch'
+alias yt='yarn test'
+alias yw='yarn workspace'
 
 # User configuration
 
@@ -92,8 +107,15 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias zshconfig="code ~/.zshrc"
+alias ohmyzsh="code ~/.oh-my-zsh"
+
+# https://unix.stackexchange.com/a/102450
+setopt ksh_glob
+setopt no_bare_glob_qual
+
+# https://superuser.com/a/373751
+setopt glob_dots
 
 # enable yarn globals
 export PATH="$PATH:$HOME/.config/yarn/global/node_modules/.bin"
@@ -112,7 +134,7 @@ export PATH=~/.local/bin:$PATH
 eval $(thefuck --alias)
 
 # enable pip executables
-export PATH="$PATH:$HOME/Library/Python/2.7/bin"
+# export PATH="$PATH:$HOME/Library/Python/2.7/bin"
 
 # enable postgres executables
 export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin"
@@ -124,19 +146,33 @@ export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 
 # SOURCE https://github.com/jiansoung/issues-list/issues/13
 # For compilers to find zlib you may need to set:
-export LDFLAGS="${LDFLAGS} -L/usr/local/opt/zlib/lib"
-export CPPFLAGS="${CPPFLAGS} -I/usr/local/opt/zlib/include"
+# export LDFLAGS="${LDFLAGS} -L/usr/local/opt/zlib/lib"
+# export CPPFLAGS="${CPPFLAGS} -I/usr/local/opt/zlib/include"
 # For pkg-config to find zlib you may need to set:
-export PKG_CONFIG_PATH="${PKG_CONFIG_PATH} /usr/local/opt/zlib/lib/pkgconfig"
+# export PKG_CONFIG_PATH="${PKG_CONFIG_PATH} /usr/local/opt/zlib/lib/pkgconfig"
 
 # enable pyenv
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+# eval "$(pyenv init -)"
+# eval "$(pyenv virtualenv-init -)"
 
 # https://github.com/robbyrussell/oh-my-zsh/issues/1905#issuecomment-20098196
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 # enable pyenv
-eval "$(pyenv init -)"
-eval "$(pipenv --completion)"
+# eval "$(pyenv init -)"
+# eval "$(pipenv --completion)"
+
+# https://virtualenvwrapper.readthedocs.io/en/latest/
+export PATH="/usr/local/opt/python@3.7/bin:$PATH"
+export VIRTUALENVWRAPPER_PYTHON="$(command \which python3)"
+source /usr/local/bin/virtualenvwrapper.sh
+
+# https://reactnative.dev/docs/environment-setup
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+export PATH="/usr/local/opt/openjdk@8/bin:$PATH"
