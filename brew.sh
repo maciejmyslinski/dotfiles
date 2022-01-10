@@ -148,6 +148,7 @@ brew cask install cold-turkey-blocker
 brew cask install devhub
 brew cask install pretzel
 brew cask install selfcontrol
+brew install alt-tab
 
 
 # Install dev-related binaries
