@@ -114,7 +114,7 @@ alias yw='yarn workspace'
 # Example aliases
 alias zshconfig="code ~/.zshrc"
 alias ohmyzsh="code ~/.oh-my-zsh"
-alias dotfiles="code ~/projects/maciejmyslinski/dotflies"
+alias dotfiles="code ~/projects/maciejmyslinski/dotfiles"
 
 # https://unix.stackexchange.com/a/102450
 setopt ksh_glob
