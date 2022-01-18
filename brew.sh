@@ -148,8 +148,6 @@ brew cask install cold-turkey-blocker
 brew cask install devhub
 brew cask install pretzel
 brew cask install selfcontrol
-brew install alt-tab
-brew install eqmac
 
 
 # Install dev-related binaries
