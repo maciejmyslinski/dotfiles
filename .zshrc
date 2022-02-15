@@ -72,19 +72,13 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # ---------------------------------------------------------------------------- #
-#                            15Five specific aliases                           #
-# ---------------------------------------------------------------------------- #
-# reftch and rebase on the origin/dev
-alias gfrbd='gf & grb origin/dev'
-
-alias prsize='gd --stat'
-
-# ---------------------------------------------------------------------------- #
 #                                General aliases                               #
 # ---------------------------------------------------------------------------- #
 alias ytw='yarn test --watch'
 alias yt='yarn test'
 alias yw='yarn workspace'
+alias prsize='gd --stat' # eg prsize main
+alias Z='z'
 
 # User configuration
 
