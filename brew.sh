@@ -82,8 +82,11 @@ brew install xpdf
 brew install xz
 brew install hostess
 brew install zlib
+brew install pyenv
 brew install pyenv-virtualenv
-brew install pyenv-virtualenvwrapper
+brew install gpg
+brew install gnupg
+brew install pinentry-mac
 
 # Install other useful binaries.
 brew install ack

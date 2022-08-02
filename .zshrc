@@ -61,7 +61,7 @@ ZSH_THEME="robbyrussell"
 plugins=(
   git
   colored-man-pages
-  # extract
+  gpg-agent
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -74,6 +74,7 @@ alias yt='yarn test'
 alias yw='yarn workspace'
 alias prsize='gd --stat' # eg prsize main
 alias Z='z'
+alias reload='source ~/.zshrc; clear'
 
 # User configuration
 
@@ -117,7 +118,7 @@ export PATH="$PATH:$HOME/.config/yarn/global/node_modules/.bin"
 
 # enable nvm
 export NVM_DIR="$HOME/.nvm"
-  . "/usr/local/opt/nvm/nvm.sh"
+. "/usr/local/opt/nvm/nvm.sh"
 
 # enable locally installed executables
 export PATH=~/.local/bin:$PATH
@@ -154,14 +155,12 @@ export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
-# enable pyenv
-# eval "$(pyenv init -)"
+# https://github.com/pyenv/pyenv#set-up-your-shell-environment-for-pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
 # eval "$(pipenv --completion)"
-
-# https://virtualenvwrapper.readthedocs.io/en/latest/
-export PATH="/usr/local/opt/python@3.7/bin:$PATH"
-export VIRTUALENVWRAPPER_PYTHON="$(command \which python3)"
-source /usr/local/bin/virtualenvwrapper.sh
 
 # https://reactnative.dev/docs/environment-setup
 export ANDROID_HOME=$HOME/Library/Android/sdk
@@ -171,3 +170,10 @@ export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 export PATH="/usr/local/opt/openjdk@8/bin:$PATH"
+
+# https://howtoegghead.com/instructor/screencasting/terminal/
+if [ "$VSC" = "hello from vscode" ]; then
+  PS1='\$ '
+fi
+
+export GPG_TTY=$(tty)
