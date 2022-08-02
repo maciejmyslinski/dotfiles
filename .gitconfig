@@ -1,9 +1,12 @@
 [core]
   editor = code --wait
   sshCommand = "ssh -i ~/.ssh/id_ed25519"
+[commit]
+  gpgsign = true
 [user]
   name = "Mat Milbury"
   email = "mat@matmilbury.com"
+  signingkey = "8EEE459F8855C22C"
 [includeIf "gitdir:maciejmyslinski/"]
     path = .gitconfig-maciejmyslinski
 [filter "lfs"]
