@@ -3,6 +3,8 @@
   sshCommand = "ssh -i ~/.ssh/id_ed25519"
 [commit]
   gpgsign = true
+[gpg]
+  program = /usr/local/bin/gpg
 [user]
   name = "Mat Milbury"
   email = "mat@matmilbury.com"
@@ -17,8 +19,8 @@
 [init]
   defaultBranch = main
 [pull]
-	ff = only
-	rebase = true
+  ff = only
+  rebase = true
 [rebase]
-	autoStash = true
+  autoStash = true
 
