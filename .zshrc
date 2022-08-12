@@ -179,3 +179,10 @@ if [ "$VSC" = "hello from vscode" ]; then
 fi
 
 export GPG_TTY=$(tty)
+
+# bun completions
+[ -s "/Users/mat/.bun/_bun" ] && source "/Users/mat/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
