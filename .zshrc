@@ -77,6 +77,7 @@ alias yw='yarn workspace'
 alias prsize='gd --stat' # eg prsize main
 alias Z='z'
 alias reload='source ~/.zshrc; clear'
+alias nvm-pin='node -v > .nvmrc'
 
 # User configuration
 
