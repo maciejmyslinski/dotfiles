@@ -1,6 +1,8 @@
 [core]
   editor = code --wait
   sshCommand = "ssh -i ~/.ssh/id_ed25519"
+[tag]
+  gpgsign = true
 [commit]
   gpgsign = true
 [gpg]
