@@ -3,5 +3,7 @@
   email = "hello@maciejmyslinski.com"
 [core]
   sshCommand = "ssh -i ~/.ssh/id_rsa"
+[tag]
+  gpgsign = false
 [commit]
   gpgsign = false
